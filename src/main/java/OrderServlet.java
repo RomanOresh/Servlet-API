@@ -8,6 +8,8 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.*;
 
+// Класс сервлета заказов
+
 @WebServlet("/orders")
 public class OrderServlet extends HttpServlet {
     public final Map<Integer, Order> orderDatabase = new HashMap<>();
