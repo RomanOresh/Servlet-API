@@ -2,6 +2,9 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
+
+// Класс заказов
+
 public class Order implements Serializable {
     private int id;
     private Date date;
